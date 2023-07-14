@@ -1,0 +1,25 @@
+.StatusCard {
+    padding: 20px;
+    max-width: 316px;
+    box-shadow: 0px 4px 4px 0px #B4CEFF;
+    border-radius: 10px;
+    background-color: white;
+    width: 316px;
+    height: 413px;
+}
+
+.round-pill {
+    width: 8.7px;
+    height: 8.7px;
+    border-radius: 50%;
+}
+
+.statusCard-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.statusCard-details p {
+    font-size: 11px;
+}

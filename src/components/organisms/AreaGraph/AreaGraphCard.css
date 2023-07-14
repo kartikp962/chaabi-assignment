@@ -1,0 +1,28 @@
+.AreaGraphCard {
+    padding: 20px 16px;
+    margin: 5px;
+    width: 316px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(24, 120, 242, 0.25);
+    border: 1px solid rgba(51, 51, 51, 0.10);
+    background-color: white;
+}
+
+.AreaGraphCard h1 {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+
+.percentage-pill {
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+    width: 60px;
+    gap: 4px;
+    font-weight: 500;
+}
+
+.number {
+    font-size: 14px;
+}

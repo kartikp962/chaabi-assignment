@@ -1,0 +1,15 @@
+.StatsAreaGraps {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.StatsAreaGraps-main {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .StatsAreaGraps-main {
+        flex-direction: column;
+      }
+}

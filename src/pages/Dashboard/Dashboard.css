@@ -1,0 +1,40 @@
+.Dashboard {
+    padding: 10px;
+    overflow-Y: scroll;
+    height: 100vh;
+    width: 100%;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first-row {
+    display: flex;
+}
+
+.second-row {
+    display: flex;
+    gap: 8px;
+}
+
+.third-row {
+    display: flex;
+    gap: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .first-row {
+        flex-direction: column;
+    }
+    
+    .second-row {
+        flex-direction: column;
+    }
+    
+    .third-row {
+        flex-direction: column;
+    }  
+}

@@ -1,0 +1,50 @@
+.Header {
+    border-radius: 0px 0px 10px 10px;
+    height: 145px;
+    background-color: #0C58E6;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.elips-1 {
+    width: 2038.332px;
+    height: 2080.191px;
+    border-radius: 2080.191px;
+    box-shadow: 23.156118392944336px 30.87482452392578px 177.53024291992188px 23.156118392944336px rgba(6, 8, 89, 0.75) inset;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -179px;
+    top: -214px;
+}
+
+.elips-2 {
+    width: 2900px;
+    height: 2900px;
+    border-radius: 1611.596px;
+    opacity: 0.75;
+    box-shadow: 23.156118392944336px 30.87482452392578px 177.53024291992188px 23.156118392944336px rgba(6, 8, 89, 0.75) inset;
+    position: absolute;
+    left: -627px;
+    top: 0;
+}
+
+.header-detail {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-detail p {
+    color: #FFF;
+    font-size: 14px;
+}
+
+.header-detail h1 {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+}

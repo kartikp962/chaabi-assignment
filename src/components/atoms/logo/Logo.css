@@ -1,0 +1,10 @@
+.Logo {
+    overflow: hidden;
+}
+
+.Logo svg {
+    width: 50px;
+    max-width: 204px;
+    min-width: 50px;
+    width: 14vw;
+}
